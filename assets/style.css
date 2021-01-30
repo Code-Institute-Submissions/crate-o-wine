@@ -1,0 +1,21 @@
+/* Custom CSS to be used with Bootstrap */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Satisfy&display=swap");
+
+:root {
+  --primary: #ad0540;
+  --secondary: #fafafa;
+  --dark: #5e0323;
+  --light: #e80253;
+  --accent: #288dfa;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* NavBar Start */
+
+/* NavBar End */
