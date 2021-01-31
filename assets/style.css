@@ -2,6 +2,8 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Satisfy&display=swap");
 
+/* Site-Wide Styles Start */
+
 :root {
   --primary: #ad0540;
   --secondary: #fafafa;
@@ -15,6 +17,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.promise,
+.carousel-container {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+/* Site-Wide Styles End */
 
 /* Content Container Start */
 
@@ -79,3 +88,31 @@
 }
 
 /* Hero Image End */
+
+/* Our Promise Start */
+
+/* Our Promise End */
+
+/* Carousel Start */
+
+.carousel-container {
+  height: 50vh;
+  max-height: 80vh;
+  overflow: hidden;
+}
+
+.customer-pic {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("https://cdn1.iconfinder.com/data/icons/education-set-7/512/arrow1-left-512.png");
+}
+.carousel-control-next-icon {
+  background-image: url("https://www.pngrepo.com/png/218171/512/right-arrow-next.png");
+}
+
+/* Carousel End */
