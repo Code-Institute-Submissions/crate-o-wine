@@ -33,10 +33,16 @@ In addition, you may also use this section to discuss plans for additional featu
 
 ## Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+- [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
 
-- [JQuery](https://jquery.com)
-  - The project uses **JQuery** to simplify DOM manipulation.
+  - The project uses **HTML5** to structure the components of the pages, this includes the Nav, Main Content and Footer.
+
+- [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
+
+  - The project uses **CSS3** to add styling to certain components of the page.
+
+- [Bootstrap 4](https://developer.mozilla.org/en-US/docs/Web/CSS)
+  - The project uses **Bootstrap 4** to tell the browser how the page layout should look using containers, rows and columns. Each component on the page uses Bootstrap and/or Flexbox to provide layout.
 
 ## Testing
 
