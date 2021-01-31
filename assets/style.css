@@ -20,7 +20,7 @@
 
 html,
 body {
-  overflow-x: hidden;
+  overflow-x: initial !important;
 }
 
 .jumbotron {
@@ -30,7 +30,8 @@ body {
 }
 
 .promise,
-.carousel-container {
+.carousel-container,
+.information-jumbotron {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   overflow: visible;
 }
@@ -172,6 +173,25 @@ nav {
 }
 
 /* Carousel End */
+
+/* Information Section Start */
+
+.information-container {
+  margin-top: 15vh;
+  width: 100%;
+}
+
+.wine-image {
+  background-image: url("./images/wine-info.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 5px;
+  width: 100%;
+  height: 60vh;
+}
+
+/* Information Section End */
 
 /* Footer Start */
 
