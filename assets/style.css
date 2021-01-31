@@ -18,9 +18,15 @@
   box-sizing: border-box;
 }
 
+html,
+body {
+  overflow-x: hidden;
+}
+
 .promise,
 .carousel-container {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  overflow: visible;
 }
 
 /* Site-Wide Styles End */
@@ -60,7 +66,7 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 60%;
+  height: 75%;
   margin: 0;
   position: relative;
 }
@@ -116,3 +122,58 @@
 }
 
 /* Carousel End */
+
+/* Footer Start */
+
+footer {
+  box-shadow: 0px -5px 5px -5px #c7c7c7;
+  overflow: inherit;
+}
+
+footer .col-4 {
+  display: flex;
+  justify-content: center;
+}
+
+footer .col-4 div {
+  text-align: center;
+}
+
+footer p {
+  font-size: 0.8rem;
+}
+
+.footer-heading {
+  font-family: "Satisfy", sans-serif;
+  color: var(--primary);
+}
+
+#social-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
+}
+
+#social-wrapper a {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: var(--primary);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+  color: var(--secondary);
+}
+
+.divider {
+  border-left: 1px solid lightgray;
+  border-right: 1px solid lightgrey;
+  margin: 5px 0px;
+}
+
+/* Footer End */
