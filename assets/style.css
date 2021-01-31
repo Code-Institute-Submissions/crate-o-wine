@@ -1,6 +1,6 @@
 /* Custom CSS to be used with Bootstrap */
 
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&family=Satisfy&display=swap");
 
 /* Site-Wide Styles Start */
 
@@ -23,10 +23,20 @@ body {
   overflow-x: hidden;
 }
 
+.jumbotron {
+  padding: 20px;
+  margin: 10px 0px;
+  text-align: center;
+}
+
 .promise,
 .carousel-container {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   overflow: visible;
+}
+
+.menu-title {
+  font-weight: 300;
 }
 
 /* Site-Wide Styles End */
@@ -43,17 +53,35 @@ body {
 
 /* NavBar Start */
 
+nav {
+  margin-bottom: 10px;
+  box-shadow: 0 4px 5px -5px gray;
+}
+
+.nav-link {
+  border-bottom: 2px solid #f8f9fa;
+}
+
+.nav-link:hover {
+  color: var(--primary);
+}
+
+.navbar a {
+  text-decoration: none;
+}
+
 #navbar-header {
   color: var(--primary);
-  border: 1px solid black;
   display: flex;
   align-items: center;
   font-family: "Satisfy", sans-serif;
   font-size: 2.5rem;
+  font-weight: 100;
+  gap: 1rem;
 }
 
 #active-link {
-  color: var(--primary);
+  color: black;
   border-bottom: 2px solid var(--primary);
 }
 
@@ -69,6 +97,7 @@ body {
   height: 75%;
   margin: 0;
   position: relative;
+  box-shadow: 0 4px 5px -5px gray;
 }
 
 .hero-text {
@@ -119,6 +148,27 @@ body {
 }
 .carousel-control-next-icon {
   background-image: url("https://www.pngrepo.com/png/218171/512/right-arrow-next.png");
+}
+
+.testimony-text {
+  border-left: 5px solid lightgray;
+  padding-left: 5px;
+}
+
+.customer-feedback {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.testimony-text::before {
+  content: "“";
+  font-size: 2.5rem;
+}
+
+.testimony-text::after {
+  content: "”";
+  font-size: 2.5rem;
 }
 
 /* Carousel End */
