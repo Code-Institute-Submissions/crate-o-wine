@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="/assets/images/logo.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <title>Crate O' Wine</title>
+  </head>
+  <body>
+    <div class="container-fluid contact-container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a href="index.html">
+          <span id="navbar-header" class="navbar-brand mb-0 h1">
+            <img
+              src="./assets/images/logo.png"
+              alt="logo"
+              width="80"
+              height="80"
+              class="d-inline-block align-top"
+            />
+            <span>Crate O' Wine</span>
+          </span>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          id="primary-color"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNavAltMarkup"
+        >
+          <div class="navbar-nav align-items-center">
+            <a class="nav-item nav-link" href="index.html"
+              >Home <span class="sr-only">(current)</span></a
+            >
+            <a class="nav-item nav-link" href="about.html">About</a>
+            <a class="nav-item nav-link" id="active-link" href="contact.html"
+              >Contact</a
+            >
+          </div>
+        </div>
+      </nav>
+
+      <section class="contact">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-10">
+            <div class="jumbotron jumbotron-fluid bg-light contact-jumbotron">
+              <div class="row justify-content-center">
+                <div
+                  class="col-10 col-sm-10 col-md-10 col-lg-5 col-xl-5 contact-form"
+                >
+                  <form class="form-group">
+                    <h1 id="primary-color">Contact Us</h1>
+                    <label for="email"><strong>Email</strong></label>
+                    <input
+                      type="email"
+                      id="email-input"
+                      name="email"
+                      placeholder="Enter your Email Address here"
+                      required
+                    />
+                    <label for="message"><strong>Message</strong></label>
+                    <textarea
+                      rows="3"
+                      id="message-input"
+                      name="message"
+                      placeholder="Enter your message here"
+                      required
+                    ></textarea>
+                    <button type="submit" class="btn btn-danger">Send</button>
+                  </form>
+                </div>
+                <div class="col-5 col-10 col-sm-10 col-md-10 col-lg-5 col-xl-5">
+                  <div
+                    id="map-container-google-1"
+                    class="z-depth-1-half map-container mb-3"
+                  >
+                    <iframe
+                      src="https://maps.google.com/maps?q=manhatan&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                      width="100%"
+                      frameborder="0"
+                      style="border: 0"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                  <p>
+                    <i class="far fa-building"></i>
+                    <strong> Address</strong>
+                  </p>
+                  <p>1429 Netus Rd. Reedsport, NY 48247</p>
+                  <p><i class="fas fa-phone-alt"></i><strong> Phone</strong></p>
+                  <p>(874) 886-4174</p>
+                  <p>
+                    <i class="far fa-envelope-open"></i>
+                    <strong>Email</strong>
+                  </p>
+                  <p>crateowine@sample.io</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="bg-light mt-3 short-footer">
+        <div class="row">
+          <div class="col-4">
+            <div class="footer-logo mt-2">
+              <h4 class="footer-heading">Crate O' Wine</h4>
+              <img
+                src="assets/images/logo.png"
+                height="70"
+                width="70"
+                alt="logo"
+              />
+              <p>© Crate O' Wine 2021</p>
+            </div>
+          </div>
+          <div class="col-4 divider">
+            <div class="footer-contact mt-1">
+              <h4 class="footer-heading">Get in Touch</h4>
+              <p class="address-one mb-0">
+                <i class="far fa-building"></i>
+                1429 Netus Rd. Reedsport,
+              </p>
+              <p class="address-two mb-0">NY 48247</p>
+              <p class="phone-no mt-0 mb-0">
+                <i class="fas fa-phone-alt"></i> (874) 886-4174
+              </p>
+              <p class="email mt-0">
+                <i class="far fa-envelope-open"></i> crateowine@sample.io
+              </p>
+            </div>
+          </div>
+          <div class="col-4 justify-content-center">
+            <div id="footer-socials" class="mt-2">
+              <h4 class="footer-heading mb-4">Socials</h4>
+              <div id="social-wrapper">
+                <a href="https://www.facebook.com" target="_blank"
+                  ><i class="fab fa-facebook"></i
+                ></a>
+                <a href="https://www.instagram.com" target="_blank"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+                <a href="https://www.twitter.com" target="_blank"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+  <script
+    src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"
+  ></script>
+</html>
