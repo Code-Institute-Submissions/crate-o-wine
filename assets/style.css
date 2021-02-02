@@ -363,6 +363,16 @@ footer p {
   }
 }
 
+/* Custom Breakpoint */
+@media only screen and (max-width: 1650px) {
+  .carousel-container {
+    height: 60vh;
+  }
+  .information-container {
+    margin-top: 18vh;
+  }
+}
+
 /* Laptops */
 @media only screen and (max-width: 1366px) {
   .carousel-container {
@@ -392,6 +402,12 @@ footer p {
   }
   .footer-contact p {
     font-size: 0.7rem;
+  }
+  .information-container {
+    margin-top: 25vh;
+  }
+  #social-wrapper {
+    margin-top: -20px;
   }
 }
 

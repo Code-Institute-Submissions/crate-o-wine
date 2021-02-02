@@ -1,8 +1,31 @@
 # Crate O' Wine
 
+---
+
 Crate O' Wine is a monthly wine subscription that allows customers to receive a new assortment of wines every month to their doorstep.
 
+It was designed and built with a mobile-first development strategy. This was possible by leveraging Bootstrap.
+
 Website deployed using GitHub Pages - [See Live](https://kenwilde1.github.io/crate-o-wine/).
+
+## Table of Contents
+
+- [Project Purpose]()
+- [User Experience (UX)]()
+  - [Objective]()
+  - [User Goals and Stories]()
+  - [Wireframes]()
+- [Site Components]()
+  - [Existing Site Components]()
+  - [Components to Implement]()
+- [Design]()
+  - [Design Considerations]()
+  - [Design Choices]()
+- [Technologies Used]()
+- [Testing]()
+- [Deployment]()
+- [Media]()
+- [Conclusion]()
 
 ## UX
 
