@@ -113,6 +113,241 @@
         </div>
       </section>
 
+      <!-- Pricing Section -->
+      <section class="pricing-container mt-1">
+        <div class="row justify-content-center">
+          <div class="col-10">
+            <div
+              class="jumbotron jumbotron-fluid bg-light information-jumbotron pb-5"
+            >
+              <div class="row info justify-content-center">
+                <div class="col-12">
+                  <h3 class="menu-title">Subscription Plans</h3>
+                </div>
+                <div class="col-12 col-sm-10 col-md-8 col-lg-8 col-xl-4">
+                  <div class="plan">
+                    <div class="standard-image"></div>
+                    <div class="plan-description pt-2 pb-4">
+                      <h5 id="primary-color">STANDARD</h5>
+                      <p>
+                        Standard Plan includes x3 assorted wines from the best
+                        fairtrade vineyards around the world. Each month is a
+                        unique surprise!
+                      </p>
+                      <p><strong>$39.99</strong></p>
+                      <button
+                        type="button"
+                        class="btn btn-danger"
+                        data-toggle="modal"
+                        data-target="#standard-modal"
+                      >
+                        Learn More
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-10 col-md-8 col-lg-8 col-xl-4">
+                  <div class="plan premium">
+                    <div class="premium-image"></div>
+                    <div class="plan-description pt-2 pb-4">
+                      <h5 id="primary-color">PREMIUM</h5>
+                      <p class="prem-desc">
+                        Standard Plan includes x5 assorted wines from the best
+                        fairtrade vineyards around the world. Each bottle is 10+
+                        years aged.
+                      </p>
+                      <p><strong>$79.99</strong></p>
+                      <button
+                        type="button"
+                        class="btn btn-danger"
+                        data-toggle="modal"
+                        data-target="#premium-modal"
+                      >
+                        Learn More
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Modals -->
+        <div
+          class="modal fade"
+          id="standard-modal"
+          tabindex="-1"
+          role="dialog"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title text-center" id="primary-color">
+                  Standard Plan
+                </h5>
+                <button
+                  type="button"
+                  class="close"
+                  data-dismiss="modal"
+                  aria-label="Close"
+                >
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <div class="standard-image rounded-border"></div>
+                <div class="standard-description mt-2">
+                  <p class="text-center">
+                    Selecting this plan will provide <strong>x3</strong>
+                    randomly assorted wines to your door every month.
+                  </p>
+                  <p>All bottles are 750ml in size.</p>
+                  <p>Includes wines from the following countries:</p>
+                  <ul class="ml-5">
+                    <li>Urugauy</li>
+                    <li>Argentina</li>
+                    <li>Italy</li>
+                    <li>Portugal</li>
+                  </ul>
+                  <p><strong>Guaranteed Minimum Value:</strong> $64.99</p>
+                  <h4 class="text-center">Price</h4>
+                  <p class="text-center">$39.99</p>
+                  <p class="text-center">(Delivery World Wide + $9.99)</p>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-dismiss="modal"
+                >
+                  Close
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="modal fade"
+          id="premium-modal"
+          tabindex="-1"
+          role="dialog"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title text-center" id="primary-color">
+                  Premium Plan
+                </h5>
+                <button
+                  type="button"
+                  class="close"
+                  data-dismiss="modal"
+                  aria-label="Close"
+                >
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <div class="premium-image rounded-border"></div>
+                <div class="premium-description mt-2">
+                  <p class="text-center">
+                    Selecting this plan will provide
+                    <strong>x5</strong> randomly assorted wines to your door
+                    every month.
+                  </p>
+                  <p>
+                    x4 Bottles are 750ml in size with x1 bottle being 1.5L
+                    (Magnum).
+                  </p>
+                  <p>Includes wines from the following countries:</p>
+                  <ul class="ml-5">
+                    <li>Urugauy</li>
+                    <li>Argentina</li>
+                    <li>Italy</li>
+                    <li>Portugal</li>
+                    <li>Spain</li>
+                    <li>France</li>
+                    <li>Netherlands</li>
+                  </ul>
+                  <p><strong>Guaranteed Minimum Value:</strong> $104.99</p>
+                  <h4 class="text-center">Price</h4>
+                  <p class="text-center">$79.99</p>
+                  <p class="text-center">(Free Delivery World Wide)</p>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-dismiss="modal"
+                >
+                  Close
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Fairtrade Section -->
+      <section class="fairtrade-container mt-1 mb-3" id="fairtrade">
+        <div class="row justify-content-center">
+          <div class="col-10">
+            <div
+              class="jumbotron jumbotron-fluid bg-light information-jumbotron"
+            >
+              <div class="row info justify-content-center">
+                <div class="col-12 col-sm-10 col-md-8 col-lg-8 col-xl-6">
+                  <div class="fairtrade-image"></div>
+                </div>
+                <div class="col-12 col-sm-10 col-md-8 col-lg-8 col-xl-4">
+                  <div class="wine-info">
+                    <h1 class="display-4" id="primary-color">
+                      Fairtrade Guarantee
+                    </h1>
+                    <hr />
+                    <h4>
+                      <span class="strong-font">Our Promise</span>
+                    </h4>
+                    <p>
+                      We personally pledge to only supply Wine where the grapes
+                      have been harvested from
+                      <a
+                        href="https://www.fairtrade.net/product/wine"
+                        target="_blank"
+                        >Certified Vineyards</a
+                      >
+                    </p>
+                    <hr />
+                    <h4>
+                      <span class="strong-font">What</span> are Certified
+                      Fairtrade Vineyards?
+                    </h4>
+                    <p>
+                      Vineyards that are Fairtrade certified receive at least
+                      the Fairtrade Minimum Price when they sell their wine
+                      (grapes) to a trader on Fairtrade terms. This protects
+                      against sudden price shifts and enables producers to plan
+                      beyond the next planting and harvesting cycle.
+                    </p>
+                    <div class="fairtrade-logo-container mt-4">
+                      <a href="https://www.fairtrade.net/" target="_blank"
+                        ><div class="fairtrade-logo"></div
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <!-- Footer -->
       <footer class="bg-light mt-3">
         <div class="row">
