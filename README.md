@@ -1,4 +1,12 @@
-# Crate O' Wine
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+</style>
+<span style="display:flex; align-items: center; justify-content: center">
+<img src="./assets/images/logo.png" height="150">
+<h1 style="color: #5e0323; font-family: 'Satisfy'; font-size: 80px;">Crate O' Wine</h1>
+</span>
+
+---
 
 Crate O' Wine is a monthly wine subscription that allows customers to receive a new assortment of wines every month to their doorstep.
 
