@@ -10,14 +10,14 @@ Website deployed using GitHub Pages - [See Live](https://kenwilde1.github.io/cra
 
 ## Table of Contents
 
-- [Project Purpose]('https://github.com/kenwilde1/crate-o-wine#crate-o-wine')
-- [User Experience (UX)]('https://github.com/kenwilde1/crate-o-wine#user-experience-ux')
-  - [Objective]('https://github.com/kenwilde1/crate-o-wine#objective')
-  - [User Goals and Stories]('https://github.com/kenwilde1/crate-o-wine#user-goals-and-stories')
-  - [Wireframes]('https://github.com/kenwilde1/crate-o-wine#wireframes')
-- [Site Components]('https://github.com/kenwilde1/crate-o-wine#site-components')
-  - [Existing Site Components]()
-  - [Components to Implement]()
+- [Project Purpose](https://github.com/kenwilde1/crate-o-wine#crate-o-wine)
+- [User Experience (UX)](https://github.com/kenwilde1/crate-o-wine#user-experience-ux)
+  - [Objective](https://github.com/kenwilde1/crate-o-wine#objective)
+  - [User Goals and Stories](https://github.com/kenwilde1/crate-o-wine#user-goals-and-stories)
+  - [Wireframes](https://github.com/kenwilde1/crate-o-wine#wireframes)
+- [Site Components]('https://github.com/kenwilde1/crate-o-wine#site-components)
+  - [Existing Site Components](https://github.com/kenwilde1/crate-o-wine#existing-site-components)
+  - [Components to Implement](https://github.com/kenwilde1/crate-o-wine#components-to-implement)
 - [Design]()
   - [Design Considerations]()
   - [Design Choices]()
