@@ -1,7 +1,7 @@
-<span style="display:flex; align-items: center; justify-content: center">
+<p style="text-align: center">
 <img src="./assets/images/logo.png" height="150">
-<img src="./assets/images/readme-logo.png" height="80">
-</span>
+<img src="./assets/images/readme/readme-logo.png" height="80">
+<p>
 
 ---
 
@@ -21,29 +21,30 @@ Website deployed using GitHub Pages - [See Live](https://kenwilde1.github.io/cra
 - [Site Components](https://github.com/kenwilde1/crate-o-wine#site-components)
   - [Existing Site Components](https://github.com/kenwilde1/crate-o-wine#existing-site-components)
   - [Components to Implement](https://github.com/kenwilde1/crate-o-wine#components-to-implement)
-- [Design]()
-  - [Design Considerations]()
-  - [Design Choices]()
-- [Technologies Used]()
+- [Design](https://github.com/kenwilde1/crate-o-wine#design)
+  - [Design Considerations](https://github.com/kenwilde1/crate-o-wine#design-considerations)
+  - [Design Choices](https://github.com/kenwilde1/crate-o-wine#design-choices)
+- [Technologies Used](https://github.com/kenwilde1/crate-o-wine#technologies-used)
 - [Testing](https://github.com/kenwilde1/crate-o-wine#testing)
   - [PageSpeed Insights](https://github.com/kenwilde1/crate-o-wine#pagespeed-insights)
   - [Google Lighthouse](https://github.com/kenwilde1/crate-o-wine#google-lighthouse)
   - [Resonsiveness Testing](https://github.com/kenwilde1/crate-o-wine#responsiveness-testing)
-- [Deployment]()
-- [Media]()
-- [Conclusion]()
+  - [User Inputs](https://github.com/kenwilde1/crate-o-wine#user-inputs)
+  - [Known Bugs](https://github.com/kenwilde1/crate-o-wine#known-bugs)
+- [Deployment](https://github.com/kenwilde1/crate-o-wine#deployment)
+- [Media](https://github.com/kenwilde1/crate-o-wine#media)
 
 ## User Experience (UX)
 
 ### Objective
 
-The Objective of the UX process was to provide end-user (potential customers) with a clear and succint way to interact and retrieve information from within the website. Through this, we avoid overwhelming the end-user with too much information and give them the freedom to navigate the website as they please.
+The Objective of the UX process was to provide end-user (potential customers) with a clear and succinct way to interact and retrieve information from within the website. Through this, we avoid overwhelming the end-user with too much information and give them the freedom to navigate the website as they please.
 
 A Secondary Objective served to provide a short path to drive users towards purchasing the product. It was important to do this in as few clicks as possible in order to hold onto the end-user's attention.
 
 ### User Goals and Stories
 
-As an End-User, the goal is to learn about the product so you can make an educated purchasing decision. As the Site Owner, in order to help the end-user achieve this goal, the website was designed to provide freedom of navigation with clear and succint data points. As the end-user becomes overwhelmed with buttons, paragraphs and other components, the chance of leaving the page increases.
+As an End-User, the goal is to learn about the product so you can make an educated purchasing decision. As the Site Owner, in order to help the end-user achieve this goal, the website was designed to provide freedom of navigation with clear and succinct data points. As the end-user becomes overwhelmed with buttons, paragraphs and other components, the chance of leaving the page increases.
 
 Every component of the website was built with a User Story in mind. This included NavBar, Carousels, Information Containers, Footers etc. No component was built without providing a User Story as a form of justification.
 
@@ -59,14 +60,14 @@ Here is a preview of the Home page on Desktop, Tablet and Mobile:
 
 - ##### Desktop
 
-  <img height="600" src="./assets/images/desktop-preview.png">
+  <img height="600" src="./assets/images/readme/desktop-preview.png">
 
 - ##### Tablet
 
-  <img height="600" src="./assets/images/tablet-preview.png">
+  <img height="600" src="./assets/images/readme/tablet-preview.png">
 
 - ##### Mobile
-  <img  height="600" src="./assets/images/mobile-preview.png">
+  <img  height="600" src="./assets/images/readme/mobile-preview.png">
 
 ## Site Components
 
@@ -133,68 +134,97 @@ Here is a preview of the Home page on Desktop, Tablet and Mobile:
 - [Git](https://git-scm.com/)
   - At every significant change, the changes were committed using Git and Github. This was done to keep track of changes, have a remote repository for protection against redundancy.
 
+## Design
+
+### Design Considerations
+
+- Clear & Succinct
+- Consistent
+- Accessible
+- Appealing
+
+Throughout the development, these four factors were at the forefront in terms of design. When the user visits the website, the goal is not to overwhelm them with all the information they need. It was important to give them the freedom to seek that information if they so chose, while giving them a **clear** landing page that provided some level of detail about the product.
+
+Every page had to be **consistent** to convery professionalism as if every component of the website was created together rather than in isolation.
+
+The website being **accessible** was also very important as you cannot expect that all users will be using the same browser, device and viewport. Making it accessible for all devices and compatible with all browsers was a key driver duing development.
+
+Lastly, while the content is clear, consistent and accessible, grabbing the user's attention with **appealing** colours, themes and layouts that enabled increased interaction is perhaps one of the most important factors of web design.
+
+### Design Choices
+
+- #### Colours
+  I used Custom CSS rules in tandem withb Bootstrap. This was because Bootstrap tends to have uniform and non-configurable styles. To accomplish this and ensure consistency throughout, I used CSS variables to declare the colours for the website:
+
+<img src="./assets/images/readme/palette.png" alt="palette">
+
+<img src="./assets/images/readme/colours.png" alt="colours">
+
+Additionally, the following Boostrap colours were used to style the background and buttons, respectively:
+
+- `bg-light` - styled the backgrounds of all components e.g carousel, subscription plans etc.
+- `btn-danger` - this colour worked well for my buttons and provided a hover effect which saved me some time.
+
 ## Testing
 
 ### PageSpeed Insights
 
 I ran the deployed site through Google's page speed insights. It recommended that up to 4.8 seconds could be saved by compressing all the images into a modern web format.
 
-To remedy this, I compressed all .jpg files into .webp. This reduced the image size by > 50% and thus helped increase page speed.
+To remedy this, I compressed all .jpg files into .webp. This reduced the image size by ~40% and thus helped increase page speed.
+
+For example, I compressed the hero image from `.jpg` to `.webp` and was able to see a 44% decrease in image storage size. This was done for all `.jpg` images to enable faster loading times as recommended.
+
+<img src="./assets/images/readme/comparison.png" alt="comparison">
 
 ### Google Lighthouse
 
 Google Lighthouse was used to test many factors of the website, mainly - Performance, Accessibility, Best Practices and Search Engine Optimisation.
 
-<img src="./assets/images/lighthouse.png" alt="performance"/><br />
+<img src="./assets/images/readme/lighthouse.png" alt="performance"/><br />
 
 The test scored very well in all tested factors. Best practices scored an ~80 due to some render-blocking resources. However, upon diving into these resources, I determined they were critical - bootstrap and font-awesome. They needed to stay in the `<head>` tag so the bootstrap grid and icons were available on page-load.
 
-<img src="./assets/images/improvement.png" alt="improvement"/><br />
+<img src="./assets/images/readme/improvement.png" alt="improvement"/><br />
 
 ### Responsiveness Testing
 
 Before every `git push` to the remote branch, the website was checked for responsiveness to ensure no changes made were breaking.
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+The following breakpoints were tested (w x h):
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+- **Desktop** - 1920px x 1080px
+- **Tablet** - 768px x 1024px
+- **Mobile** - 360px x 720px
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+### User Inputs
 
-1. Contact form:
-   1. Go to the "Contact Us" page
-   2. Try to submit the empty form and verify that an error message about the required fields appears
-   3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-   4. Try to submit the form with all inputs valid and verify that a success message appears.
+The only place a user can input their own data is the contact form. As the scope of this project is front-end, we can only implement client-side input validation. To accomplish this every input `type` was set correctly and given the attribute `required`. So if it was an email type, it would require a valid email.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+This covered the following scenarios:
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+- If the user submits an empty form, an appropriate error message tells them to fill in the appropriate (missing) fields.
+- If the email address is invalid, the browser will tell the user to adhere to a certain format.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+### Known Bugs
+
+- The Contact Page does not have enough content to enable a scrollbar, when navigating to and from the contact page, the page grows wider / smaller with the absence of a scrollbar. This leads to less than smooth navigation.
+
+- When the device width reaches < 300px, the content starts to get less responsive and stretched.
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+Github pages were used to deploy the project. You can visit it [here](https://kenwilde1.github.io/crate-o-wine). Github pages looks at the `main` respository for an index.html and that has references to the rest of the website. Every time a `push` is made, a new build is deployed to github pages.
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
+To run it locally you can:
 
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
-
-## Credits
-
-### Content
-
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+```
+> git clone https://github.com/kenwilde1/crate-o-wine.git
+> cd crate-o-wine/
+> open ./index.html
+```
 
 ### Media
 
-- The photos used in this site were obtained from ...
-
-### Acknowledgements
-
-- I received inspiration for this project from X
+- All Images were taken from [Pixabay](https://pixabay.com/). They offer a variety of copyright free images.
+- The faces of the people in the carousel were AI-generated using [Generated](https://generated.photos/faces).
