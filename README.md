@@ -1,7 +1,5 @@
 # Crate O' Wine
 
----
-
 Crate O' Wine is a monthly wine subscription that allows customers to receive a new assortment of wines every month to their doorstep.
 
 It was designed and built with a mobile-first development strategy. This was possible by leveraging Bootstrap.
@@ -15,7 +13,7 @@ Website deployed using GitHub Pages - [See Live](https://kenwilde1.github.io/cra
   - [Objective](https://github.com/kenwilde1/crate-o-wine#objective)
   - [User Goals and Stories](https://github.com/kenwilde1/crate-o-wine#user-goals-and-stories)
   - [Wireframes](https://github.com/kenwilde1/crate-o-wine#wireframes)
-- [Site Components]('https://github.com/kenwilde1/crate-o-wine#site-components)
+- [Site Components](https://github.com/kenwilde1/crate-o-wine#site-components)
   - [Existing Site Components](https://github.com/kenwilde1/crate-o-wine#existing-site-components)
   - [Components to Implement](https://github.com/kenwilde1/crate-o-wine#components-to-implement)
 - [Design]()
@@ -121,7 +119,11 @@ Here is a preview of the Home page on Desktop, Tablet and Mobile:
   - The project uses **CSS3** to add styling to certain components of the page.
 
 - [Bootstrap 4](https://developer.mozilla.org/en-US/docs/Web/CSS)
+
   - The project uses **Bootstrap 4** to tell the browser how the page layout should look using containers, rows and columns. Each component on the page uses Bootstrap and/or Flexbox to provide layout.
+
+- [Git](https://git-scm.com/)
+  - At every significant change, the changes were committed using Git and Github. This was done to keep track of changes, have a remote repository for protection against redundancy.
 
 ## Testing
 
