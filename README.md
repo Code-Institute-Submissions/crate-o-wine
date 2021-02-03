@@ -27,17 +27,46 @@ Website deployed using GitHub Pages - [See Live](https://kenwilde1.github.io/cra
 - [Media]()
 - [Conclusion]()
 
-## UX
+## User Experience (UX)
 
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+---
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
+### Objective
 
-- As a user type, I want to perform an action, so that I can achieve a goal.
+The Objective of the UX process was to provide end-user (potential customers) with a clear and succint way to interact and retrieve information from within the website. Through this, we avoid overwhelming the end-user with too much information and give them the freedom to navigate the website as they please.
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+A Secondary Objective served to provide a short path to drive users towards purchasing the product. It was important to do this in as few clicks as possible in order to hold onto the end-user's attention.
 
-## Features
+### User Goals and Stories
+
+As an End-User, the goal is to learn about the product so you can make an educated purchasing decision. As the Site Owner, in order to help the end-user achieve this goal, the website was designed to provide freedom of navigation with clear and succint data points. As the end-user becomes overwhelmed with buttons, paragraphs and other components, the chance of leaving the page increases.
+
+Every component of the website was built with a User Story in mind. This included NavBar, Carousels, Information Containers, Footers etc. No component was built without providing a User Story as a form of justification.
+
+You can view the User Stories [here]('./assets/docs/User-Stories.pdf'). For every user story, a visual card was created. It had a 'title' which served as the reason to build out a selected feature. Below that, you can see that _why_ the user would want this.
+
+### Wireframes
+
+Wireframes were created pre-emptively in order to provide a schematic for how the website would look on every page and device. The Wireframes covered Desktop, Tablet and Mobile for responsive design. They are an original mock-up and some components may vary on the live preview of the website.
+
+You can view the Wireframes [here]('./assets/docs/Wireframes-Desktop-Tablet-Mobile.pdf').
+
+Here is a preview of the Home page on Desktop, Tablet and Mobile:
+
+- ##### Desktop
+
+  <img height="600" src="./assets/images/desktop-preview.png">
+
+- ##### Tablet
+
+  <img height="600" src="./assets/images/tablet-preview.png">
+
+- ##### Mobile
+  <img  height="600" src="./assets/images/mobile-preview.png">
+
+## Site Components
+
+---
 
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
 
