@@ -10,12 +10,12 @@ Website deployed using GitHub Pages - [See Live](https://kenwilde1.github.io/cra
 
 ## Table of Contents
 
-- [Project Purpose]()
-- [User Experience (UX)]()
-  - [Objective]()
-  - [User Goals and Stories]()
-  - [Wireframes]()
-- [Site Components]()
+- [Project Purpose]('https://github.com/kenwilde1/crate-o-wine#crate-o-wine')
+- [User Experience (UX)]('https://github.com/kenwilde1/crate-o-wine#user-experience-ux')
+  - [Objective]('https://github.com/kenwilde1/crate-o-wine#objective')
+  - [User Goals and Stories]('https://github.com/kenwilde1/crate-o-wine#user-goals-and-stories')
+  - [Wireframes]('https://github.com/kenwilde1/crate-o-wine#wireframes')
+- [Site Components]('https://github.com/kenwilde1/crate-o-wine#site-components')
   - [Existing Site Components]()
   - [Components to Implement]()
 - [Design]()
@@ -28,8 +28,6 @@ Website deployed using GitHub Pages - [See Live](https://kenwilde1.github.io/cra
 - [Conclusion]()
 
 ## User Experience (UX)
-
----
 
 ### Objective
 
