@@ -20,7 +20,10 @@ Website deployed using GitHub Pages - [See Live](https://kenwilde1.github.io/cra
   - [Design Considerations]()
   - [Design Choices]()
 - [Technologies Used]()
-- [Testing]()
+- [Testing](https://github.com/kenwilde1/crate-o-wine#testing)
+  - [PageSpeed Insights](https://github.com/kenwilde1/crate-o-wine#pagespeed-insights)
+  - [Google Lighthouse](https://github.com/kenwilde1/crate-o-wine#google-lighthouse)
+  - [Resonsiveness Testing](https://github.com/kenwilde1/crate-o-wine#responsiveness-testing)
 - [Deployment]()
 - [Media]()
 - [Conclusion]()
@@ -126,6 +129,26 @@ Here is a preview of the Home page on Desktop, Tablet and Mobile:
   - At every significant change, the changes were committed using Git and Github. This was done to keep track of changes, have a remote repository for protection against redundancy.
 
 ## Testing
+
+### PageSpeed Insights
+
+I ran the deployed site through Google's page speed insights. It recommended that up to 4.8 seconds could be saved by compressing all the images into a modern web format.
+
+To remedy this, I compressed all .jpg files into .webp. This reduced the image size by > 50% and thus helped increase page speed.
+
+### Google Lighthouse
+
+Google Lighthouse was used to test many factors of the website, mainly - Performance, Accessibility, Best Practices and Search Engine Optimisation.
+
+<img src="./assets/images/lighthouse.png" alt="performance"/><br />
+
+The test scored very well in all tested factors. Best practices scored an ~80 due to some render-blocking resources. However, upon diving into these resources, I determined they were critical - bootstrap and font-awesome. They needed to stay in the `<head>` tag so the bootstrap grid and icons were available on page-load.
+
+<img src="./assets/images/improvement.png" alt="improvement"/><br />
+
+### Responsiveness Testing
+
+Before every `git push` to the remote branch, the website was checked for responsiveness to ensure no changes made were breaking.
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
