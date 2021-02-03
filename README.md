@@ -64,22 +64,51 @@ Here is a preview of the Home page on Desktop, Tablet and Mobile:
 
 ## Site Components
 
----
+### Existing Site Components
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+- #### Navbar
 
-### Existing Features
+  The Navbar serves as a source of navigation and design. On the left side of the navbar, it contains the logo and title 'Crate O' Wine'. This is clickable and brings the user back to the homepage. On the right side of the navbar are our nav links - Home, About and Contact, respectively.
 
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
+- #### Hero Image
 
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+  The Hero Image component will be the first thing the user sees and is implemented to grab attention. It contains a text box in the center that containts two links - read more and start now. Read More will bring the user to the About page where they can be informed about the product. Start Now will bring the user to the Contact page where they can subsequently get in touch to start the subscription.
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+- #### Promise Container
 
-### Features Left to Implement
+  The Promise component informs the user of a fairtrade guarantee, it contains a button that brings them to the About page to learn more about this.
 
-- Another feature idea
+- #### User Feedback Carousel
+
+  The User Feedback Carousel is a text and image slide of people who have subscribed to the product and left feedback. It's goal is to gain trust with the user.
+
+- #### Information Container
+
+  The Information container, located on the About page, will educate the User on exactly what they need to know about the product - the How, What, Where.
+
+- #### Subscription Plans
+
+  This section gives the user a list of available subscription plans - standard and premium. They are presented in the form of panes, they provide a basic overview of each plan - description and price. Both plans have a button that brings up a Modal.
+
+- #### Subscription Modals
+
+  As mentioned previously, clicking on the button in the subscription plans brings up a modal. This provides in-depth details of what exactly each plan offers.
+
+- #### Fairtrade Container
+
+  As mentioned before with the promise container, it's button brings the user here. This is a container to explain why each wine on offer is fairtrade guaranteed. Put simply, it educates the user on why this is a core value of the product.
+
+- #### Contact Form
+  Within the scope of this project, the contact form is the place that the User declares their interest in starting a monthly subscription. It provides input fields and validation. In addition, there is a google maps embed along with the physical address.
+
+### Components to Implement
+
+- #### Checkout
+
+  In the future, the user should be able to select a plan and perform a checkout for the plan they selected. This would include a cart-like system and a purchasing container.
+
+- #### Gallery
+  An Image Gallery showing visual aspects of these crates can also capture a user's interest in the product. As the company is fictitious, this was not possible to implement during development.
 
 ## Technologies Used
 
