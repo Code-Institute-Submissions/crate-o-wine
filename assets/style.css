@@ -273,11 +273,11 @@ nav {
 /* Contact Container Start */
 
 .contact-container {
-  height: 60vh;
+  overflow: auto;
 }
 
 .contact {
-  margin-top: 15vh;
+  padding-top: 19vh;
 }
 
 .form-group {
@@ -289,12 +289,6 @@ nav {
 .form-group input,
 .form-group textarea {
   padding-left: 5px;
-}
-
-.short-footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
 }
 
 /* Contact Container End */
@@ -359,7 +353,7 @@ footer p {
 /* High Res Desktops  */
 @media only screen and (max-width: 1920px) {
   .carousel-container {
-    height: 60vh;
+    height: 50vh;
   }
 }
 
@@ -370,6 +364,21 @@ footer p {
   }
   .information-container {
     margin-top: 18vh;
+  }
+  .contact {
+    padding-bottom: 5vh;
+  }
+}
+
+/* Custom Breakpoint */
+@media only screen and (min-width: 1200px) {
+  .short-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  .contact {
+    padding-bottom: 25vh;
   }
 }
 
@@ -404,10 +413,17 @@ footer p {
     font-size: 0.7rem;
   }
   .information-container {
-    margin-top: 25vh;
+    margin-top: 33%;
   }
   #social-wrapper {
     margin-top: -20px;
+  }
+}
+
+/* Custom Breakpoint */
+@media only screen and (max-width: 410px) {
+  .information-container {
+    margin-top: 25vh;
   }
 }
 
