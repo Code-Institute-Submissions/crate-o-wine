@@ -129,19 +129,6 @@ nav {
 
 /* Carousel Start */
 
-.carousel-container {
-  height: 50vh;
-  max-height: 80vh;
-  overflow: hidden;
-}
-
-.customer-pic {
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  border-radius: 50%;
-  height: 150px;
-  width: 150px;
-}
-
 .carousel-control-prev-icon {
   background-image: url("https://cdn1.iconfinder.com/data/icons/education-set-7/512/arrow1-left-512.png");
 }
@@ -149,15 +136,8 @@ nav {
   background-image: url("https://www.pngrepo.com/png/218171/512/right-arrow-next.png");
 }
 
-.testimony-text {
-  border-left: 5px solid lightgray;
-  padding-left: 5px;
-}
-
-.customer-feedback {
-  width: 100%;
-  display: flex;
-  justify-content: center;
+.subscriber-name {
+  color: var(--primary);
 }
 
 .testimony-text::before {
@@ -351,16 +331,10 @@ footer p {
 
 /* High Res Desktops  */
 @media only screen and (max-width: 1920px) {
-  .carousel-container {
-    height: 50vh;
-  }
 }
 
 /* Custom Breakpoint */
 @media only screen and (max-width: 1650px) {
-  .carousel-container {
-    height: 60vh;
-  }
   .information-container {
     margin-top: 18vh;
   }
@@ -383,16 +357,15 @@ footer p {
 
 /* Laptops */
 @media only screen and (max-width: 1366px) {
-  .carousel-container {
-    height: 65vh;
+  .button-container {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
   }
 }
 
 /* Tablets */
 @media only screen and (max-width: 768px) {
-  .carousel-container {
-    height: 75vh;
-  }
   .testimony-text {
     border: 0px;
   }
@@ -400,10 +373,6 @@ footer p {
 
 /* Large Mobile */
 @media only screen and (max-width: 430px) {
-  .carousel-container {
-    height: 85vh;
-    font-size: 0.9rem;
-  }
   #social-wrapper {
     flex-direction: column;
     align-items: center;
@@ -424,29 +393,38 @@ footer p {
   .information-container {
     margin-top: 25vh;
   }
+  #navbar-header {
+    font-size: 2rem;
+  }
 }
 
 /* Mobile */
 @media only screen and (max-width: 380px) {
-  .carousel-container {
-    height: 90vh;
-    font-size: 0.8rem;
-  }
   .hero-text {
     margin-top: 5vh;
   }
   .footer-contact p {
     font-size: 0.6rem;
   }
+  #navbar-header {
+    font-size: 1.7rem;
+  }
+  #navbar-header img {
+    height: 50px;
+    width: 50px;
+  }
 }
 
 /* Small Mobile */
-@media only screen and (max-width: 300px) {
-  .carousel-container {
-    height: 95vh;
-    font-size: 0.8rem;
-  }
+@media only screen and (max-width: 316px) {
   .hero-text {
     margin-top: 10vh;
+  }
+  #navbar-header {
+    font-size: 1.6rem;
+  }
+  #navbar-header img {
+    height: 40px;
+    width: 40px;
   }
 }
