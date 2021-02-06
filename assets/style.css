@@ -53,7 +53,6 @@
 /* NavBar Start */
 
 nav {
-  margin-bottom: 10px;
   box-shadow: 0 4px 5px -5px gray;
 }
 
@@ -155,8 +154,7 @@ nav {
 /* Information Section Start */
 
 .information-container {
-  margin-top: 15vh;
-  width: 100%;
+  margin-top: 140px;
 }
 
 .wine-image {
@@ -335,9 +333,6 @@ footer p {
 
 /* Custom Breakpoint */
 @media only screen and (max-width: 1650px) {
-  .information-container {
-    margin-top: 18vh;
-  }
   .contact {
     padding-bottom: 5vh;
   }
@@ -355,6 +350,16 @@ footer p {
   }
 }
 
+/* Custom Breakpoint */
+@media only screen and (max-width: 1200px) {
+  .wine-image {
+    height: 30vh;
+  }
+  .fairtrade-image {
+    height: 30vh;
+  }
+}
+
 /* Laptops */
 @media only screen and (max-width: 1366px) {
   .button-container {
@@ -369,6 +374,12 @@ footer p {
   .testimony-text {
     border: 0px;
   }
+  .wine-image {
+    height: 25vh;
+  }
+  .fairtrade-image {
+    height: 25vh;
+  }
 }
 
 /* Large Mobile */
@@ -380,19 +391,21 @@ footer p {
   .footer-contact p {
     font-size: 0.7rem;
   }
-  .information-container {
-    margin-top: 33%;
-  }
+
   #social-wrapper {
     margin-top: -20px;
+  }
+
+  .wine-image {
+    height: 20vh;
+  }
+  .fairtrade-image {
+    height: 20vh;
   }
 }
 
 /* Custom Breakpoint */
 @media only screen and (max-width: 410px) {
-  .information-container {
-    margin-top: 25vh;
-  }
   #navbar-header {
     font-size: 2rem;
   }
