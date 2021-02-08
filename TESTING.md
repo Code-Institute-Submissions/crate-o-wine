@@ -1,5 +1,9 @@
 # Testing
 
+- [W3C HTML Validator](https://github.com/kenwilde1/crate-o-wine/blob/main/TESTING.md#w3c-html-validator)
+- [W3C CSS Jigsaw Validator](https://github.com/kenwilde1/crate-o-wine/blob/main/TESTING.md#w3c-css-jigsaw-validator)
+- [PageSpeed Insights](https://github.com/kenwilde1/crate-o-wine/blob/main/TESTING.md#pagespeed-insights)
+
 ### W3C HTML Validator
 
 All html written for the site was checked using the HTML Validator on [W3C](https://validator.w3.org/).
@@ -49,8 +53,54 @@ Before every `git push` to the remote branch, the website was checked for respon
 The following breakpoints were tested (w x h):
 
 - **Desktop** - 1920px x 1080px
-- **Tablet** - 768px x 1024px
-- **Mobile** - 360px x 720px
+- **Tablet**
+  - **iPad** - 768px x 1024px
+  - **iPad Pro** - 1024px x 1366px
+- **Mobile**
+  - **Moto G4** - 360px x 640px
+  - **Pixel 2** - 411px x 731px
+  - **iPhone X** - 375px x 812px
+  - **Galaxy Fold** - 280px x 653px
+
+#### Desktop - 1920px x 1080px
+
+- ##### Navbar and Footer
+
+The Navbar has two sections, left and right. On the right, we have the logo and title 'Crate O' Wine'. On the right, we have the Nav links - Home, About and Contact. For Desktop view, the active page is highlighted in black and has a red border-bottom.
+
+The footer is divided into three evenly spaced sections - Logo, Contact and Socials.
+
+- ##### Index
+
+On the home page, we have the hero image that is stretched to fill the full width of the screen. Inside the hero image, we have an _absolute_ positioned div. The div itself is vertically centered within the hero image. The text is also centered within this div.
+
+<img src="./markdown-images/desktop-home-hero.png" alt="hero"/><br />
+
+Below the hero image, we have a promise section. This contains text centered and a button. The container itself takes up 'col-10' in Desktop view in related to Bootstrap Grid. This allows some space around the information.
+
+<img src="./markdown-images/desktop-home-promise.png" alt="promise"/><br />
+
+Finally, we have the user feedback carousel. This is responsive and the user can interact with the carousel indicators which causes no negative side effects to the page.
+
+<img src="./markdown-images/desktop-home-feedback.png" alt="feedback"/><br />
+
+- ##### About
+
+The first container is the information container. It contains basic information about the service. The container takes up 'col-10'. Inside, there are two sections text and image. They take up 'col-xl-6' and 'col-xl-4', respectively.
+
+<img src="./markdown-images/desktop-about-information.png" alt="info"/><br />
+
+The subscription plans also take up 'col-10' of space. This time, it's children Standard and Premium both take up 'col-xl-4' of space. They have a gap in between provided by flexbox.
+
+<img src="./markdown-images/desktop-about-pricing.png" alt="pricing"/><br />
+
+The User can click 'Learn More' on the above plans. This will bring up a modal. The modal is centered on the screen, on desktop there is no need to scroll, the whole modal is visible on desktop.
+
+<img src="./markdown-images/desktop-about-modal.png" alt="modal"/><br />
+
+The final section on the About page is the Fairtrade container. Much alike the rest of the components, it takes up 'col-10'. It's children - Image and Text. Taking up 'col-xl-4' and 'col-xl-6', respectively. Conversely to the Information Section above, the image comes before the text.
+
+<img src="./markdown-images/desktop-about-fairtrade.png" alt="fairtrade"/><br />
 
 ### User Inputs
 
