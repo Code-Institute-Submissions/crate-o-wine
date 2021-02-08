@@ -48,11 +48,21 @@ As an End-User, the goal is to learn about the product so you can make an educat
 
 Every component of the website was built with a User Story in mind. This included NavBar, Carousels, Information Containers, Footers etc. No component was built without providing a User Story as a form of justification.
 
+- As a User I want to learn about the service so that I can make an educated purchase.
+- As a User I want to see customer feedback so I can gain trust in the service.
+- As a User, I want to navigate pages so that I can learn more about the service at my own leisure.
+- As a User, I want to read in-depth information about the service so I can make an educated purchasing decision.
+- As a User, I want to contact the product owner to gain more information about the service
+- As a User, I want to view the subscription plans so that I can decide which one is best for me.
+- As a User, I want to access the product's Social Media so I can keep up to date with the service.
+
 You can view the User Stories [here]('./assets/docs/User-Stories.pdf'). For every user story, a visual card was created. It had a 'title' which served as the reason to build out a selected feature. Below that, you can see that _why_ the user would want this.
 
 ### Wireframes
 
 Wireframes were created pre-emptively in order to provide a schematic for how the website would look on every page and device. The Wireframes covered Desktop, Tablet and Mobile for responsive design. They are an original mock-up and some components may vary on the live preview of the website.
+
+The Wireframes were created using [Figma](https://www.figma.com/).
 
 You can view the Wireframes [here]('./assets/docs/Wireframes-Desktop-Tablet-Mobile.pdf').
 
@@ -131,8 +141,16 @@ Here is a preview of the Home page on Desktop, Tablet and Mobile:
 
   - The project uses **Bootstrap 4** to tell the browser how the page layout should look using containers, rows and columns. Each component on the page uses Bootstrap and/or Flexbox to provide layout.
 
+- [Font Awesome](https://fontawesome.com/)
+
+  - **Font Awesome** was used to add logos to the contact page and footer section. Specifically, a phone, building and email logos.
+
 - [Git](https://git-scm.com/)
-  - At every significant change, the changes were committed using Git and Github. This was done to keep track of changes, have a remote repository for protection against redundancy.
+
+  - At every significant change, the changes were committed using **Git** and Github. This was done to keep track of changes, have a remote repository for protection against redundancy.
+
+- [Google Fonts](https://fonts.google.com/)
+  - Inside the Custom CSS, I utilized **Google Fonts** to add some custom fonts where applicable. They were Roboto for main text and Satisfy for Large Headings.
 
 ## Design
 
@@ -165,62 +183,36 @@ Additionally, the following Boostrap colours were used to style the background a
 
 ## Testing
 
-### PageSpeed Insights
-
-I ran the deployed site through Google's page speed insights. It recommended that up to 4.8 seconds could be saved by compressing all the images into a modern web format.
-
-To remedy this, I compressed all .jpg files into .webp. This reduced the image size by ~40% and thus helped increase page speed.
-
-For example, I compressed the hero image from `.jpg` to `.webp` and was able to see a 44% decrease in image storage size. This was done for all `.jpg` images to enable faster loading times as recommended.
-
-<img src="./assets/images/readme/comparison.png" alt="comparison">
-
-### Google Lighthouse
-
-Google Lighthouse was used to test many factors of the website, mainly - Performance, Accessibility, Best Practices and Search Engine Optimisation.
-
-<img src="./assets/images/readme/lighthouse.png" alt="performance"/><br />
-
-The test scored very well in all tested factors. Best practices scored an ~80 due to some render-blocking resources. However, upon diving into these resources, I determined they were critical - bootstrap and font-awesome. They needed to stay in the `<head>` tag so the bootstrap grid and icons were available on page-load.
-
-<img src="./assets/images/readme/improvement.png" alt="improvement"/><br />
-
-### Responsiveness Testing
-
-Before every `git push` to the remote branch, the website was checked for responsiveness to ensure no changes made were breaking.
-
-The following breakpoints were tested (w x h):
-
-- **Desktop** - 1920px x 1080px
-- **Tablet** - 768px x 1024px
-- **Mobile** - 360px x 720px
-
-### User Inputs
-
-The only place a user can input their own data is the contact form. As the scope of this project is front-end, we can only implement client-side input validation. To accomplish this every input `type` was set correctly and given the attribute `required`. So if it was an email type, it would require a valid email.
-
-This covered the following scenarios:
-
-- If the user submits an empty form, an appropriate error message tells them to fill in the appropriate (missing) fields.
-- If the email address is invalid, the browser will tell the user to adhere to a certain format.
-
-### Known Bugs
-
-- The Contact Page does not have enough content to enable a scrollbar, when navigating to and from the contact page, the page grows wider / smaller with the absence of a scrollbar. This leads to less than smooth navigation.
-
-- When the device width reaches < 300px, the content starts to get less responsive and stretched.
+You can read about the testing process in this isolated file here [TESTING.md](https://github.com/kenwilde1/crate-o-wine/blob/main/TESTING.md)
 
 ## Deployment
 
-Github pages were used to deploy the project. You can visit it [here](https://kenwilde1.github.io/crate-o-wine). Github pages looks at the `main` respository for an index.html and that has references to the rest of the website. Every time a `push` is made, a new build is deployed to github pages.
+#### Github pages were used to deploy the project. These are the steps I took to deploy:
 
-To run it locally you can:
+1. Visit my GitHub [Repository](https://github.com/kenwilde1/crate-o-wine).
+2. Go to _Settings_.
+3. Go to the _Github Pages_ section.
+4. Select the `main` branch under _Source_ to deploy.
+5. Click _Save_.
+6. The Site is then deployed [here](https://kenwilde1.github.io/crate-o-wine).
+
+Whenever changes are pushed to the repository, Github pages will create a new deployment and the live site will be updated with the new changes.
+
+#### To run it locally on the command line (OSX / Linux):
 
 ```
 > git clone https://github.com/kenwilde1/crate-o-wine.git
 > cd crate-o-wine/
 > open ./index.html
 ```
+
+#### To run it locally on your OS Gui:
+
+1. Visit my GitHub [Repository](https://github.com/kenwilde1/crate-o-wine).
+2. Click the _Code_ drop-down menu located directly above the files.
+3. Choose _Download ZIP_.
+4. When downloaded, extract the .zip folder.
+5. From the extracted folder, open `index.html` with your preferred browser.
 
 ### Media
 
