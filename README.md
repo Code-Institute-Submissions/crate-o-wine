@@ -158,8 +158,6 @@ Lastly, while the content is clear, consistent and accessible, grabbing the user
 
 <img src="./assets/images/readme/palette.png" alt="palette">
 
-<img src="./assets/images/readme/colours.png" alt="colours">
-
 Additionally, the following Boostrap colours were used to style the background and buttons, respectively:
 
 - `bg-light` - styled the backgrounds of all components e.g carousel, subscription plans etc.
