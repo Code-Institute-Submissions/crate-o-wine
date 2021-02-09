@@ -3,6 +3,12 @@
 - [W3C HTML Validator](https://github.com/kenwilde1/crate-o-wine/blob/main/TESTING.md#w3c-html-validator)
 - [W3C CSS Jigsaw Validator](https://github.com/kenwilde1/crate-o-wine/blob/main/TESTING.md#w3c-css-jigsaw-validator)
 - [PageSpeed Insights](https://github.com/kenwilde1/crate-o-wine/blob/main/TESTING.md#pagespeed-insights)
+- [Google Lighthouse](https://github.com/kenwilde1/crate-o-wine/blob/main/TESTING.md#google-lighthouse)
+- [User Stories Testing](https://github.com/kenwilde1/crate-o-wine/blob/main/TESTING.md#user-stories-testing)
+- [Responsiveness Testing](https://github.com/kenwilde1/crate-o-wine/blob/main/TESTING.md#responsiveness-testing)
+- [Peer Code Review](https://github.com/kenwilde1/crate-o-wine/blob/main/TESTING.md#peer-code-review)
+- [User Inputs Testing](https://github.com/kenwilde1/crate-o-wine/blob/main/TESTING.md#user-inputs)
+- [Known Bugs](https://github.com/kenwilde1/crate-o-wine/blob/main/TESTING.md#known-bugs)
 
 ### W3C HTML Validator
 
@@ -20,11 +26,15 @@ All html written for the site was checked using the HTML Validator on [W3C](http
 
 <img src="./markdown-images/w3c-contact-validated.png" alt="contact.html">
 
+---
+
 ### W3C CSS Jigsaw Validator
 
 The Custom CSS `style.css` was validated using [Jigsaw](https://jigsaw.w3.org/css-validator/validator):
 
 <img src="./markdown-images/w3c-css-validated.png" alt="css validated">
+
+---
 
 ### PageSpeed Insights
 
@@ -36,6 +46,8 @@ For example, I compressed the hero image from `.jpg` to `.webp` and was able to 
 
 <img src="./assets/images/readme/comparison.png" alt="comparison">
 
+---
+
 ### Google Lighthouse
 
 Google Lighthouse was used to test many factors of the website, mainly - Performance, Accessibility, Best Practices and Search Engine Optimisation.
@@ -46,11 +58,54 @@ The test scored very well in all tested factors. Best practices scored an ~80 du
 
 <img src="./assets/images/readme/improvement.png" alt="improvement"/><br />
 
+---
+
+### User Stories Testing
+
+This section will go through each User Story created and see if the objective has succeeded.
+
+- As a User, I want to navigate pages so that I can learn more about the service at my own leisure.
+
+  - When the User visits the site, every page will have a Navbar containing each page - Home, About and Contact.
+  - The User can also click on the logo on the Navbar to return to Home at any time.
+    <br />
+
+- As a User I want to learn about the service so that I can make an educated purchase.
+
+  - The User is greeted by a Hero Image with some initial text that gives them information straight away.
+  - It also provides buttons so they can Learn More or Start Now.
+    <br />
+
+- As a User I want to see customer feedback so I can gain trust in the service.
+
+  - There is a customer feedback carousel that will rotate every 5s. Additionally the user can click through each customer review.
+    <br />
+
+- As a User, I want to read in-depth information about the service so I can make an educated purchasing decision.
+  - The User can navigate to the About page that describes the "What", "How" and "When" of the service.
+  - They can navigate to this via the 'Learn More' button or the About Nav Link in the NavBar.
+
+<br />
+
+- As a User, I want to view the subscription plans so that I can decide which one is best for me.
+  - The subscription plans provide a base level of information.
+  - The User can learn more about it by clicking on one of the plans, it will bring up a Modal and provide a lot more information.
+    <br />
+- As a User, I want to contact the product owner to gain more information about the service
+  - If the User has more questions or would like to subscribe to the product, they can go to the Contact page.
+  - The Contact page has a contact form and address information if they want to get in touch.
+    <br />
+- As a User, I want to access the product's Social Media so I can keep up to date with the service.
+  - The User may want to see the latest news, offers etc for the service.
+  - The footer contains all social media links - Facebook, Twitter and Instagram.
+
+---
+
 ### Responsiveness Testing
 
 Before every `git push` to the remote branch, the website was checked for responsiveness to ensure no changes made were breaking.
 
-The following breakpoints were tested (w x h):
+The following breakpoints were tested (w x h) using Chrome Dev Tools:
 
 - **Desktop** - 1920px x 1080px
 - **Tablet**
@@ -61,14 +116,19 @@ The following breakpoints were tested (w x h):
   - **Pixel 2** - 411px x 731px
   - **iPhone X** - 375px x 812px
   - **Galaxy Fold** - 280px x 653px
+- **Responsive** - dynamic width x height with 100% zoom
+
+Below, the layout of various components will be illustrated with images on each Desktop, Tablet and Mobile. Desktop will include all components while Tablet and Mobile will only include components that are altered significantly when the resolution changes in order to keep this section as succinct as possible.
+
+Where applicable, any responsiveness issues that were encountered for certain components will be explained.
 
 #### Desktop - 1920px x 1080px
 
-- ##### Navbar and Footer
+- ##### Navbar
 
 The Navbar has two sections, left and right. On the right, we have the logo and title 'Crate O' Wine'. On the right, we have the Nav links - Home, About and Contact. For Desktop view, the active page is highlighted in black and has a red border-bottom.
 
-The footer is divided into three evenly spaced sections - Logo, Contact and Socials.
+<img src="./markdown-images/desktop-navbar.png" alt="navbar"/><br />
 
 - ##### Index
 
@@ -102,6 +162,72 @@ The final section on the About page is the Fairtrade container. Much alike the r
 
 <img src="./markdown-images/desktop-about-fairtrade.png" alt="fairtrade"/><br />
 
+- ##### Contact
+
+The contact container takes up col-10, with an inner-row that takes up 'col-8' to give it a nice width and good centering on the page. It has two input fields - Email and Message.
+
+<img src="./markdown-images/desktop-contact-form.png" alt="contact-form"/><br />
+
+Below this, we have the address section. It also takes up 'col-10' like the rest of the containers on the Desktop resolution. Inside, we have two columns - an imbed iframe and an address info section. Both columns are 'col-6' at Desktop. In order to center the address information, flexbox was used.
+
+<img src="./markdown-images/desktop-address.png" alt="contact-address"/><br />
+
+- ##### Footer
+
+The footer is divided into three evenly spaced sections - Logo, Contact and Socials. Each section took up 'col-4' on the same row. Taking up a total of 'col-12'.
+
+<img src="./markdown-images/desktop-footer.png" alt="footer"/><br />
+
+#### Tablet - 768px x 1024px
+
+- ##### Navbar
+
+The Navbar becomes a hamburger drop-down menu in order to save space on more narrow screens such as Tablets.
+
+<img src="./markdown-images/tablet-navbar.png" alt="navbar"/><br />
+
+- ##### Footer
+
+For the footer, as there was less real-estate for text, the text was reduced by 0.1 - 0.2 rem. This was applied to the 'Get in Touch' section and the 'Social' Icons.
+
+<img src="./markdown-images/tablet-footer.png" alt="footer"/><br />
+
+#### Mobile - 360px x 640px
+
+- ##### Navbar
+
+At resolutions below ~350px in width, the Navbar was forced to take up another row in order to accomodate the hamburger button. This would also cover any content that was there previously.
+
+<img src="./markdown-images/mobile-navbar.png" alt="navbar"/><br />
+
+To remedy this, the logo and title 'Crate O' Wine' size was reduced by ~10%.
+
+<img src="./markdown-images/mobile-navbar-fix.png" alt="navbar"/><br />
+
+- ##### Contact
+
+On the Contact page, it was noticed that the form was too big for the current width as can be observed:
+
+<img src="./markdown-images/mobile-contact-broken.png" alt="contact"/><br />
+
+This was due to the Bootstrap column being too small to accomodate the size of the contact form, in order to fix this, the contact form was changed from 'col-8' to 'col-12' - enabling it to take up the full width of the row.
+
+<img src="./markdown-images/mobile-contact-fix.png" alt="contact"/><br />
+
+---
+
+### Peer Code Review
+
+I utilized the `#peer-code-review` to get some outside opinions on my milestone project.
+
+- It was noticed that the buttons on the page would not work if you clicked the border around it - which was bad UX. This was happening as I had an `<a>` tag within my `<button>`.
+  - In order to solve this, I removed the `<button>` element and just used the `<a>` tag as a button. This solved the issue.
+    <br />
+- The Contact form was also too narrow on certain mobile resolutions.
+  - This was solved by increasing the column size from 'col-8' to 'col-12'. More can be read about that solution above.
+
+---
+
 ### User Inputs
 
 The only place a user can input their own data is the contact form. As the scope of this project is front-end, we can only implement client-side input validation. To accomplish this every input `type` was set correctly and given the attribute `required`. So if it was an email type, it would require a valid email.
@@ -110,6 +236,8 @@ This covered the following scenarios:
 
 - If the user submits an empty form, an appropriate error message tells them to fill in the appropriate (missing) fields.
 - If the email address is invalid, the browser will tell the user to adhere to a certain format.
+
+---
 
 ### Known Bugs
 

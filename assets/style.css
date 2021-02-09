@@ -29,7 +29,8 @@
 .promise,
 .contact-jumbotron,
 .carousel-container,
-.information-jumbotron {
+.information-jumbotron,
+.address {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   overflow: visible;
 }
@@ -256,11 +257,7 @@ nav {
 /* Contact Container Start */
 
 .contact-container {
-  overflow: auto;
-}
-
-.contact {
-  padding-top: 19vh;
+  margin-top: 150px;
 }
 
 .form-group {
@@ -272,6 +269,12 @@ nav {
 .form-group input,
 .form-group textarea {
   padding-left: 5px;
+}
+
+.address-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 /* Contact Container End */
@@ -343,21 +346,10 @@ footer p {
 
 /* Custom Breakpoint */
 @media only screen and (max-width: 1650px) {
-  .contact {
-    padding-bottom: 5vh;
-  }
 }
 
 /* Custom Breakpoint */
 @media only screen and (min-width: 1200px) {
-  .short-footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-  }
-  .contact {
-    padding-bottom: 25vh;
-  }
 }
 
 /* Custom Breakpoint */
@@ -450,5 +442,19 @@ footer p {
   #navbar-header img {
     height: 40px;
     width: 40px;
+  }
+}
+
+/* Small Mobile */
+@media only screen and (max-width: 280px) {
+  .hero-text {
+    margin-top: 10vh;
+  }
+  #navbar-header {
+    font-size: 1.2rem;
+  }
+  #navbar-header img {
+    height: 35px;
+    width: 35px;
   }
 }
