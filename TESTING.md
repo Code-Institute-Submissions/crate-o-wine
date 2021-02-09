@@ -1,14 +1,19 @@
 # Testing
 
-- [W3C HTML Validator](https://github.com/kenwilde1/crate-o-wine/blob/main/TESTING.md#w3c-html-validator)
-- [W3C CSS Jigsaw Validator](https://github.com/kenwilde1/crate-o-wine/blob/main/TESTING.md#w3c-css-jigsaw-validator)
-- [PageSpeed Insights](https://github.com/kenwilde1/crate-o-wine/blob/main/TESTING.md#pagespeed-insights)
-- [Google Lighthouse](https://github.com/kenwilde1/crate-o-wine/blob/main/TESTING.md#google-lighthouse)
-- [User Stories Testing](https://github.com/kenwilde1/crate-o-wine/blob/main/TESTING.md#user-stories-testing)
-- [Responsiveness Testing](https://github.com/kenwilde1/crate-o-wine/blob/main/TESTING.md#responsiveness-testing)
-- [Peer Code Review](https://github.com/kenwilde1/crate-o-wine/blob/main/TESTING.md#peer-code-review)
-- [User Inputs Testing](https://github.com/kenwilde1/crate-o-wine/blob/main/TESTING.md#user-inputs)
+- [W3C](https://github.com/kenwilde1/crate-o-wine/blob/main/TESTING.md#w3c)
+  - [W3C HTML Validator](https://github.com/kenwilde1/crate-o-wine/blob/main/TESTING.md#w3c-html-validator)
+  - [W3C CSS Jigsaw Validator](https://github.com/kenwilde1/crate-o-wine/blob/main/TESTING.md#w3c-css-jigsaw-validator)
+- [Performance](https://github.com/kenwilde1/crate-o-wine/blob/main/TESTING.md#performance)
+  - [PageSpeed Insights](https://github.com/kenwilde1/crate-o-wine/blob/main/TESTING.md#pagespeed-insights)
+  - [Google Lighthouse](https://github.com/kenwilde1/crate-o-wine/blob/main/TESTING.md#google-lighthouse)
+- [User Testing](https://github.com/kenwilde1/crate-o-wine/blob/main/TESTING.md#user-testing)
+  - [User Stories Testing](https://github.com/kenwilde1/crate-o-wine/blob/main/TESTING.md#user-stories-testing)
+  - [Responsiveness Testing](https://github.com/kenwilde1/crate-o-wine/blob/main/TESTING.md#responsiveness-testing)
+  - [Peer Code Review](https://github.com/kenwilde1/crate-o-wine/blob/main/TESTING.md#peer-code-review)
+  - [User Inputs Testing](https://github.com/kenwilde1/crate-o-wine/blob/main/TESTING.md#user-inputs)
 - [Bugs](https://github.com/kenwilde1/crate-o-wine/blob/main/TESTING.md#known-bugs)
+
+## W3C
 
 ### W3C HTML Validator
 
@@ -26,8 +31,6 @@ All html written for the site was checked using the HTML Validator on [W3C](http
 
 <img src="./markdown-images/w3c-contact-validated.png" alt="contact.html">
 
----
-
 ### W3C CSS Jigsaw Validator
 
 The Custom CSS `style.css` was validated using [Jigsaw](https://jigsaw.w3.org/css-validator/validator):
@@ -35,6 +38,8 @@ The Custom CSS `style.css` was validated using [Jigsaw](https://jigsaw.w3.org/cs
 <img src="./markdown-images/w3c-css-validated.png" alt="css validated">
 
 ---
+
+## Performance
 
 ### PageSpeed Insights
 
@@ -44,21 +49,21 @@ To remedy this, I compressed all .jpg files into .webp. This reduced the image s
 
 For example, I compressed the hero image from `.jpg` to `.webp` and was able to see a 44% decrease in image storage size. This was done for all `.jpg` images to enable faster loading times as recommended.
 
-<img src="./assets/images/readme/comparison.png" alt="comparison">
-
----
+<img src="./markdown-images/comparison.png" alt="comparison">
 
 ### Google Lighthouse
 
 Google Lighthouse was used to test many factors of the website, mainly - Performance, Accessibility, Best Practices and Search Engine Optimisation.
 
-<img src="./assets/images/readme/lighthouse.png" alt="performance"/><br />
+<img src="./markdown-images/lighthouse.png" alt="performance"/><br />
 
 The test scored very well in all tested factors. Best practices scored an ~80 due to some render-blocking resources. However, upon diving into these resources, I determined they were critical - bootstrap and font-awesome. They needed to stay in the `<head>` tag so the bootstrap grid and icons were available on page-load.
 
-<img src="./assets/images/readme/improvement.png" alt="improvement"/><br />
+<img src="./markdown-images/improvement.png" alt="improvement"/><br />
 
 ---
+
+## User Testing
 
 ### User Stories Testing
 
@@ -98,8 +103,6 @@ This section will go through each User Story created and see if the objective ha
 - As a User, I want to access the product's Social Media so I can keep up to date with the service.
   - The User may want to see the latest news, offers etc for the service.
   - The footer contains all social media links - Facebook, Twitter and Instagram.
-
----
 
 ### Responsiveness Testing
 
@@ -214,8 +217,6 @@ This was due to the Bootstrap column being too small to accomodate the size of t
 
 <img src="./markdown-images/mobile-contact-fix.png" alt="contact"/><br />
 
----
-
 ### Peer Code Review
 
 I utilized the `#peer-code-review` to get some outside opinions on my milestone project.
@@ -225,8 +226,6 @@ I utilized the `#peer-code-review` to get some outside opinions on my milestone 
     <br />
 - The Contact form was also too narrow on certain mobile resolutions.
   - This was solved by increasing the column size from 'col-8' to 'col-12'. More can be read about that solution above.
-
----
 
 ### User Inputs
 
@@ -257,5 +256,10 @@ This covered the following scenarios:
     <br  />
 
 - The buttons on the Home page would not work if you clicked the borders of the button. This occurred as inside the button, there was an `<a>` tag that handled the redirect. The border on the button was not apart of the `<a>` tag.
+
   - **Solution:** I removed the `<button>` tag and just kept the `<a>` tag, this meant the border on the `<a>` tag would be clickable and redirect correctly.
+    <br />
+
+- For landscape mode on Mobile phones, 50% of the hero image was covered by the Navbar.
+  - **Solution:** I added 100px margin-top to the hero image on devices that had a max-width of 700px and a max-height of 300px.
     <br />
