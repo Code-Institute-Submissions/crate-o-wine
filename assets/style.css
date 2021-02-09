@@ -340,18 +340,6 @@ footer p {
 
 /* Responsive Media Queries */
 
-/* High Res Desktops  */
-@media only screen and (max-width: 1920px) {
-}
-
-/* Custom Breakpoint */
-@media only screen and (max-width: 1650px) {
-}
-
-/* Custom Breakpoint */
-@media only screen and (min-width: 1200px) {
-}
-
 /* Custom Breakpoint */
 @media only screen and (max-width: 1200px) {
   .wine-image {
