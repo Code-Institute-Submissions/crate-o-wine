@@ -26,13 +26,10 @@ Website deployed using GitHub Pages - [See Live](https://kenwilde1.github.io/cra
   - [Design Choices](https://github.com/kenwilde1/crate-o-wine#design-choices)
 - [Technologies Used](https://github.com/kenwilde1/crate-o-wine#technologies-used)
 - [Testing](https://github.com/kenwilde1/crate-o-wine#testing)
-  - [PageSpeed Insights](https://github.com/kenwilde1/crate-o-wine#pagespeed-insights)
-  - [Google Lighthouse](https://github.com/kenwilde1/crate-o-wine#google-lighthouse)
-  - [Resonsiveness Testing](https://github.com/kenwilde1/crate-o-wine#responsiveness-testing)
-  - [User Inputs](https://github.com/kenwilde1/crate-o-wine#user-inputs)
-  - [Known Bugs](https://github.com/kenwilde1/crate-o-wine#known-bugs)
 - [Deployment](https://github.com/kenwilde1/crate-o-wine#deployment)
-- [Media](https://github.com/kenwilde1/crate-o-wine#media)
+- [Credits](https://github.com/kenwilde1/crate-o-wine#credits)
+  - [Media](https://github.com/kenwilde1/crate-o-wine#media)
+  - [Acknowledgements](https://github.com/kenwilde1/crate-o-wine#acknowledgements)
 
 ## User Experience (UX)
 
@@ -70,14 +67,14 @@ Here is a preview of the Home page on Desktop, Tablet and Mobile:
 
 - ##### Desktop
 
-  <img height="600" src="./assets/images/readme/desktop-preview.png">
+  <img height="600" src="./markdown-images/desktop-preview.png">
 
 - ##### Tablet
 
-  <img height="600" src="./assets/images/readme/tablet-preview.png">
+  <img height="600" src="./markdown-images/tablet-preview.png">
 
 - ##### Mobile
-  <img  height="600" src="./assets/images/readme/mobile-preview.png">
+  <img  height="600" src="./markdown-images/mobile-preview.png">
 
 ## Site Components
 
@@ -174,7 +171,7 @@ Lastly, while the content is clear, consistent and accessible, grabbing the user
 - #### Colours
   I used Custom CSS rules in tandem withb Bootstrap. This was because Bootstrap tends to have uniform and non-configurable styles. To accomplish this and ensure consistency throughout, I used CSS variables to declare the colours for the website:
 
-<img src="./assets/images/readme/palette.png" alt="palette">
+<img src="./markdown-images/palette.png" alt="palette">
 
 Additionally, the following Boostrap colours were used to style the background and buttons, respectively:
 
@@ -206,7 +203,7 @@ Whenever changes are pushed to the repository, Github pages will create a new de
 > open ./index.html
 ```
 
-#### To run it locally on your OS Gui:
+#### To run it locally on your OS GUI:
 
 1. Visit my GitHub [Repository](https://github.com/kenwilde1/crate-o-wine).
 2. Click the _Code_ drop-down menu located directly above the files.
@@ -214,7 +211,15 @@ Whenever changes are pushed to the repository, Github pages will create a new de
 4. When downloaded, extract the .zip folder.
 5. From the extracted folder, open `index.html` with your preferred browser.
 
+## Credits
+
 ### Media
 
 - All Images were taken from [Pixabay](https://pixabay.com/). They offer a variety of copyright free images.
 - The faces of the people in the carousel were AI-generated using [Generated](https://generated.photos/faces).
+
+### Acknowledgements
+
+- My Mentor [Precious Ijege(https://www.linkedin.com/in/precious-ijege-908a00168/?originalSubdomain=ng) helped me along the way and ensured high standards at all times.
+
+- `#peer-code-review` and `#user-centric-frontend` slack channels helped me along the way for any queries I had and for getting an outside opinion on how the site could improve.

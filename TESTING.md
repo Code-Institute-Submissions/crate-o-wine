@@ -8,7 +8,7 @@
 - [Responsiveness Testing](https://github.com/kenwilde1/crate-o-wine/blob/main/TESTING.md#responsiveness-testing)
 - [Peer Code Review](https://github.com/kenwilde1/crate-o-wine/blob/main/TESTING.md#peer-code-review)
 - [User Inputs Testing](https://github.com/kenwilde1/crate-o-wine/blob/main/TESTING.md#user-inputs)
-- [Known Bugs](https://github.com/kenwilde1/crate-o-wine/blob/main/TESTING.md#known-bugs)
+- [Bugs](https://github.com/kenwilde1/crate-o-wine/blob/main/TESTING.md#known-bugs)
 
 ### W3C HTML Validator
 
@@ -239,8 +239,23 @@ This covered the following scenarios:
 
 ---
 
-### Known Bugs
-
-- The Contact Page does not have enough content to enable a scrollbar, when navigating to and from the contact page, the page grows wider / smaller with the absence of a scrollbar. This leads to less than smooth navigation.
+### Bugs
 
 - When the device width reaches < 300px, the content starts to get less responsive and stretched.
+
+  - **Solution:** Specifically the Galaxy Fold ~280px width, content was fixed for this width but lower widths are not supported as there are not many devices at this width.
+    <br />
+
+- The Inputs in the contact form have placeholders, at small device width (~350px) - the placeholders aren't fully visible.
+
+  - **Solution:** I decreased the font size for the inputs and applied it to a media query at the aformentioned width.
+    <br />
+
+- At ~320px, the Navbar could not fit all the items so it spilled into a new row. Subsequently it covered some of the content below it.
+
+  - **Solution:** The Logo and Title size was reduced in order to fit the hamburger menu so it would not spill onto a new row for widths above 120px.
+    <br  />
+
+- The buttons on the Home page would not work if you clicked the borders of the button. This occurred as inside the button, there was an `<a>` tag that handled the redirect. The border on the button was not apart of the `<a>` tag.
+  - **Solution:** I removed the `<button>` tag and just kept the `<a>` tag, this meant the border on the `<a>` tag would be clickable and redirect correctly.
+    <br />
