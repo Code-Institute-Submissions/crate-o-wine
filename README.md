@@ -1,6 +1,6 @@
 <p style="text-align: center">
 <img src="./assets/images/logo.png" height="150">
-<img src="./assets/images/readme/readme-logo.png" height="80">
+<img src="./markdown-images/readme-logo.png" height="80">
 <p>
 
 ---
