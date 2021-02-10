@@ -7,6 +7,7 @@
   - [PageSpeed Insights](https://github.com/kenwilde1/crate-o-wine/blob/main/TESTING.md#pagespeed-insights)
   - [Google Lighthouse](https://github.com/kenwilde1/crate-o-wine/blob/main/TESTING.md#google-lighthouse)
 - [User Testing](https://github.com/kenwilde1/crate-o-wine/blob/main/TESTING.md#user-testing)
+  - [Browser Compatibility](https://github.com/kenwilde1/crate-o-wine/blob/main/TESTING.md#browser-compatibility)
   - [User Stories Testing](https://github.com/kenwilde1/crate-o-wine/blob/main/TESTING.md#user-stories-testing)
   - [Responsiveness Testing](https://github.com/kenwilde1/crate-o-wine/blob/main/TESTING.md#responsiveness-testing)
   - [Peer Code Review](https://github.com/kenwilde1/crate-o-wine/blob/main/TESTING.md#peer-code-review)
@@ -64,6 +65,14 @@ The test scored very well in all tested factors. Best practices scored an ~80 du
 ---
 
 ## User Testing
+
+### Browser Compatibility
+
+The above HTML and CSS Validators will test for valid code that can run on all browsers.
+
+- **Google Chrome** - The site was built and tested using Chrome Dev Tools, every web component works as expected.
+- **Mozilla Firefox** - All web components work and appear as expected.
+- **Safari** - All web components work and appear as expected. The default styling for inputs look different on Safari but it does not cause any breaking changes.
 
 ### User Stories Testing
 
