@@ -93,7 +93,7 @@ nav {
 /* Hero Image Start */
 
 .hero-image {
-  background-image: url("./images/hero.webp");
+  background-image: url("../images/hero.webp");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -165,7 +165,7 @@ nav {
 }
 
 .wine-image {
-  background-image: url("./images/wine-info.webp");
+  background-image: url("../images/wine-info.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -190,7 +190,7 @@ nav {
 }
 
 .standard-image {
-  background-image: url("images/standard.webp");
+  background-image: url("../images/standard.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -200,7 +200,7 @@ nav {
 }
 
 .premium-image {
-  background-image: url("images/premium.webp");
+  background-image: url("../images/premium.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -227,7 +227,7 @@ nav {
 /* Fairtrade Container Start */
 
 .fairtrade-image {
-  background-image: url("images/vineyard.webp");
+  background-image: url("../images/vineyard.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -243,7 +243,7 @@ nav {
 }
 
 .fairtrade-logo {
-  background-image: url("images/fairtrade-logo.png");
+  background-image: url("../images/fairtrade-logo.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
