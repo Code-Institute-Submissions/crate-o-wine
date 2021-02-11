@@ -12,7 +12,7 @@
   - [Responsiveness Testing](https://github.com/kenwilde1/crate-o-wine/blob/main/TESTING.md#responsiveness-testing)
   - [Peer Code Review](https://github.com/kenwilde1/crate-o-wine/blob/main/TESTING.md#peer-code-review)
   - [User Inputs Testing](https://github.com/kenwilde1/crate-o-wine/blob/main/TESTING.md#user-inputs)
-- [Bugs](https://github.com/kenwilde1/crate-o-wine/blob/main/TESTING.md#known-bugs)
+- [Bugs](https://github.com/kenwilde1/crate-o-wine/blob/main/TESTING.md#bugs)
 
 ## W3C
 

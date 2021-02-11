@@ -13,7 +13,6 @@ Website deployed using GitHub Pages - [See Live](https://kenwilde1.github.io/cra
 
 ## Table of Contents
 
-- [Project Purpose](https://github.com/kenwilde1/crate-o-wine#crate-o-wine)
 - [User Experience (UX)](https://github.com/kenwilde1/crate-o-wine#user-experience-ux)
   - [Objective](https://github.com/kenwilde1/crate-o-wine#objective)
   - [User Goals and Stories](https://github.com/kenwilde1/crate-o-wine#user-goals-and-stories)
@@ -224,6 +223,8 @@ Whenever changes are pushed to the repository, Github pages will create a new de
 
 ### Acknowledgements
 
-- My Mentor [Precious Ijege(https://www.linkedin.com/in/precious-ijege-908a00168/?originalSubdomain=ng) helped me along the way and ensured high standards at all times.
+- My Mentor [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/?originalSubdomain=ng) helped me along the way and ensured high standards at all times.
 
 - `#peer-code-review` and `#user-centric-frontend` slack channels helped me along the way for any queries I had and for getting an outside opinion on how the site could improve.
+
+Click here to go back to [README.md](https://github.com/kenwilde1/crate-o-wine/blob/main/TESTING.md#testing)
