@@ -60,7 +60,7 @@ Wireframes were created pre-emptively in order to provide a schematic for how th
 
 The Wireframes were created using [Figma](https://www.figma.com/).
 
-You can view the Wireframes [here]('./wireframes/Wireframes-Desktop-Tablet-Mobile.pdf').
+You can view the Wireframes [here](https://github.com/kenwilde1/crate-o-wine/blob/main/wireframes/Wireframes-Desktop-Tablet-Mobile.pdf).
 
 Here is a preview of the Home page on Desktop, Tablet and Mobile:
 
