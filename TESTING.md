@@ -58,7 +58,7 @@ Google Lighthouse was used to test many factors of the website, mainly - Perform
 
 <img src="./markdown-images/lighthouse.png" alt="performance"/><br />
 
-The test scored very well in all tested factors. Best practices scored an ~80 due to some render-blocking resources. However, upon diving into these resources, I determined they were critical - bootstrap and font-awesome. They needed to stay in the `<head>` tag so the bootstrap grid and icons were available on page-load.
+The test scored very well in all tested factors. Best practices scored < 80 due to some render-blocking resources. However, upon diving into these resources, I determined they were critical - bootstrap and font-awesome. They needed to stay in the `<head>` tag so the bootstrap grid and icons were available on page-load.
 
 <img src="./markdown-images/improvement.png" alt="improvement"/><br />
 
@@ -117,10 +117,10 @@ This section will go through each User Story created and see if the objective ha
     <br />
 
 - As a User, I want to read in-depth information about the service so I can make an educated purchasing decision.
+
   - The User can navigate to the About page that describes the "What", "How" and "When" of the service.
   - They can navigate to this via the 'Learn More' button or the About Nav Link in the NavBar.
-
-<br />
+    <br />
 
 - As a User, I want to view the subscription plans so that I can decide which one is best for me.
   - The subscription plans provide a base level of information.

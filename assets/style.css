@@ -423,12 +423,12 @@ footer p {
 }
 
 /* Small Mobile */
-@media only screen and (max-width: 316px) {
+@media only screen and (max-width: 320px) {
   .hero-text {
     margin-top: 10vh;
   }
   #navbar-header {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
   }
   #navbar-header img {
     height: 40px;
@@ -447,6 +447,30 @@ footer p {
   #navbar-header img {
     height: 35px;
     width: 35px;
+  }
+}
+
+/* Custom Breakpoint */
+@media only screen and (max-height: 650px) {
+  .hero-text {
+    margin-top: 17vh;
+  }
+}
+
+/* Custom Breakpoint */
+@media only screen and (max-height: 520px) {
+  .hero-text {
+    padding: 5px;
+    font-size: 0.8rem;
+    margin-top: 20vh;
+  }
+  .hero-text a {
+    width: 40%;
+  }
+  .button-container {
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 5px;
   }
 }
 
