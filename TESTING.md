@@ -71,8 +71,29 @@ The test scored very well in all tested factors. Best practices scored an ~80 du
 The above HTML and CSS Validators will test for valid code that can run on all browsers.
 
 - **Google Chrome** - The site was built and tested using Chrome Dev Tools, every web component works as expected.
-- **Mozilla Firefox** - All web components work and appear as expected.
-- **Safari** - All web components work and appear as expected. The default styling for inputs look different on Safari but it does not cause any breaking changes.
+  - **Web Components**: Work as expected.
+  - **Links**: Correctly direct user to other parts of their site / open new tab if leaving the site.
+  - **Images**: All rendered correctly.
+- **Mozilla Firefox**
+  - **Web Components**: Work as expected.
+  - **Links**: Correctly direct user to other parts of their site / open new tab if leaving the site.
+  - **Images**: All rendered correctly.
+- **Safari**
+  - **Web Components**: Work as expected.
+  - **Links**: Correctly direct user to other parts of their site / open new tab if leaving the site.
+  - **Images**: All rendered correctly.
+- **Opera**
+  - **Web Components**: Work as expected.
+  - **Links**: Correctly direct user to other parts of their site / open new tab if leaving the site.
+  - **Images**: All rendered correctly.
+    <br />
+
+|   **Browser**   | Appearance | Responsivness |
+| :-------------: | :--------: | :-----------: |
+|  Google Chrome  |   _good_   |    _good_     |
+| Mozilla Firefox |   _good_   |    _good_     |
+|     Safari      |   _good_   |    _good_     |
+|      Opera      |   _good_   |    _good_     |
 
 ### User Stories Testing
 
