@@ -147,7 +147,11 @@ Here is a preview of the Home page on Desktop, Tablet and Mobile:
   - At every significant change, the changes were committed using **Git** and Github. This was done to keep track of changes, have a remote repository for protection against redundancy.
 
 - [Google Fonts](https://fonts.google.com/)
+
   - Inside the Custom CSS, I utilized **Google Fonts** to add some custom fonts where applicable. They were Roboto for main text and Satisfy for Large Headings.
+
+- [Prettier](https://prettier.io/)
+  - This VSCode extension was used to format all HTML and CSS files along the way. **Prettier** would format the code on a `CTRL + S` or `CMD + S`.
 
 ## Design
 
