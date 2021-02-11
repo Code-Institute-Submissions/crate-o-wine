@@ -52,7 +52,7 @@ Every component of the website was built with a User Story in mind. This include
 - As a User, I want to view the subscription plans so that I can decide which one is best for me.
 - As a User, I want to access the product's Social Media so I can keep up to date with the service.
 
-You can view the User Stories [here]('./assets/docs/User-Stories.pdf'). For every user story, a visual card was created. It had a 'title' which served as the reason to build out a selected feature. Below that, you can see that _why_ the user would want this.
+For every user story, a visual card was created. It had a 'title' which served as the reason to build out a selected feature. Below that, you can see that _why_ the user would want this.
 
 ### Wireframes
 
@@ -60,7 +60,7 @@ Wireframes were created pre-emptively in order to provide a schematic for how th
 
 The Wireframes were created using [Figma](https://www.figma.com/).
 
-You can view the Wireframes [here]('./assets/docs/Wireframes-Desktop-Tablet-Mobile.pdf').
+You can view the Wireframes [here]('./Wireframes/Wireframes-Desktop-Tablet-Mobile.pdf').
 
 Here is a preview of the Home page on Desktop, Tablet and Mobile:
 
@@ -226,5 +226,3 @@ Whenever changes are pushed to the repository, Github pages will create a new de
 - My Mentor [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/?originalSubdomain=ng) helped me along the way and ensured high standards at all times.
 
 - `#peer-code-review` and `#user-centric-frontend` slack channels helped me along the way for any queries I had and for getting an outside opinion on how the site could improve.
-
-Click here to go back to [README.md](https://github.com/kenwilde1/crate-o-wine/blob/main/TESTING.md#testing)

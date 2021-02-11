@@ -293,3 +293,5 @@ This covered the following scenarios:
 - For landscape mode on Mobile phones, 50% of the hero image was covered by the Navbar.
   - **Solution:** I added 100px margin-top to the hero image on devices that had a max-width of 700px and a max-height of 300px.
     <br />
+
+Click here to go back to [README.md](https://github.com/kenwilde1/crate-o-wine/blob/main/TESTING.md#testing)
