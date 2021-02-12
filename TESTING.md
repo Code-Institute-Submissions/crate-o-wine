@@ -1,6 +1,6 @@
 # Testing
 
-- [W3C](https://github.com/kenwilde1/crate-o-wine/blob/main/TESTING.md#w3c)
+- [Code Validation](https://github.com/kenwilde1/crate-o-wine/blob/main/TESTING.md#code-validation)
   - [W3C HTML Validator](https://github.com/kenwilde1/crate-o-wine/blob/main/TESTING.md#w3c-html-validator)
   - [W3C CSS Jigsaw Validator](https://github.com/kenwilde1/crate-o-wine/blob/main/TESTING.md#w3c-css-jigsaw-validator)
 - [Performance](https://github.com/kenwilde1/crate-o-wine/blob/main/TESTING.md#performance)
@@ -14,7 +14,7 @@
   - [User Inputs Testing](https://github.com/kenwilde1/crate-o-wine/blob/main/TESTING.md#user-inputs)
 - [Bugs](https://github.com/kenwilde1/crate-o-wine/blob/main/TESTING.md#bugs)
 
-## W3C
+## Code Validation
 
 ### W3C HTML Validator
 
