@@ -420,6 +420,10 @@ footer p {
   input {
     font-size: 0.8rem;
   }
+  .information-container,
+  .contact-container {
+    margin-top: 110px;
+  }
 }
 
 /* Small Mobile */
@@ -450,14 +454,14 @@ footer p {
   }
 }
 
-/* Custom Breakpoint */
+/* Custom Height Breakpoint */
 @media only screen and (max-height: 650px) {
   .hero-text {
     margin-top: 17vh;
   }
 }
 
-/* Custom Breakpoint */
+/* Custom Height Breakpoint */
 @media only screen and (max-height: 520px) {
   .hero-text {
     padding: 5px;
