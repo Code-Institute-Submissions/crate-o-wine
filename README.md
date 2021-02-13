@@ -200,6 +200,8 @@ Whenever changes are pushed to the repository, Github pages will create a new de
 
 #### To run it locally on the command line (OSX / Linux):
 
+Ensure you have [git](https://git-scm.com/) installed before running the following commands:
+
 ```
 > git clone https://github.com/kenwilde1/crate-o-wine.git
 > cd crate-o-wine/
